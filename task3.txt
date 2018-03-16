@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main()
+{
+    setlocale(0, "Russian"); 
+int valuel, value2, sum;
+valuel = 15;
+value2 = 87;
+sum = valuel - value2;
+printf ("Разность %i и %i равна %i\n" , valuel, value2, sum);
+return 0;
+}
